@@ -2,7 +2,7 @@
 
 A Mathematica implementation of genetic algorithm, which seems to be faster than Mathematica built-in `NMaximize` or `NMinimize` with the option `"DifferentialEvolution"`.
 
-Two main function in this packages are `GAMaximize` and `GAMinimize`.
+Two main functions in this packages are `GAMaximize` and `GAMinimize`.
 
 `GAMaximize[func, vars]`/`GAMinimize[func, vars]`  maximizes/minimizes the given function func numerically with the Genetic Algorithm. 
 

@@ -1,6 +1,6 @@
 # Mathematica-GA
 
-A Mathematica implementation of genetic algorithm, which seems to be faster than Mathematica NMaximize/NMinimize with the option "DifferentialEvolution".
+A Mathematica implementation of genetic algorithm, which seems to be faster than Mathematica built-in `NMaximize` or `NMinimize` with the option `"DifferentialEvolution"`.
 
 Two main function in this packages are `GAMaximize` and `GAMinimize`.
 

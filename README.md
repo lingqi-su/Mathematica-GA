@@ -6,7 +6,7 @@ Two main function in this packages are `GAMaximize` and `GAMinimize`.
 
 `GAMaximize[func, vars]`/`GAMinimize[func, vars]`  maximizes/minimizes the given function func numerically with the Genetic Algorithm. 
 
-Variables should be written in form of {\!\(\*SubscriptBox[\(x\), \(1\)]\)\[Element]Reals, \!\(\*SubscriptBox[\(x\), \(2\)]\)\[Element]Integers}. 
+Variables should be written in form of `{Element[x, Reals],Element[y, Integers]}`. 
 
 # Example
 ```

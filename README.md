@@ -27,34 +27,34 @@ GAMinimize[func, {Element[x, Reals], Element[y, Integers]}, PopulationSize -> 10
 
 # Options
 
-PrecisionGoal: integer, default value 5
+`PrecisionGoal`: integer, default value 5
 
-AccuracyGoal: integer, default value 5
+`AccuracyGoal`: integer, default value 5
 
-MaxIterations: integer, default value 10000
+`MaxIterations`: integer, default value 10000
 
-PopulationSize: integer, default value 10 * number of variables
+`PopulationSize`: integer, default value 10 * number of variables
 
-Bounds: default value None
+`Bounds`: default value None
 
-ShrinkingFactor: real, default value 1, must be smaller than 1
+`ShrinkingFactor`: real, default value 1, must be smaller than 1
 
-Scale: real, default value: 1
+`Scale`: real, default value: 1
 
-TournamentSize: integer, default value 3
+`TournamentSize`: integer, default value 3
 
-MutationProbability: real, default value 0.01
+`MutationProbability`: real, default value 0.01
 
-CrossoverProbability: real, default value 0.8
+`CrossoverProbability`: real, default value 0.8
 
-MaxUnchangedGeneration: integer, default value MaxIterations/4
+`MaxUnchangedGeneration`: integer, default value MaxIterations/4
 
-bReal: real, default value 0.15
+`bReal`: real, default value 0.15
 
-bInt: real, default value 0.35
+`bInt`: real, default value 0.35
 
-a: real, default value 0
+`a`: real, default value 0
 
-pReal: real, default value 10
+`pReal`: real, default value 10
 
-pInt: real, default value 4
+`pInt`: real, default value 4
